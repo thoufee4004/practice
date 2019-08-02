@@ -13,8 +13,8 @@ int main(int argc,char *argv[]) {
     //float area,b,h;
    // printf("enter the base and height");
    // scanf("%f,%f",&b,&h);
-    int b=atoi(argv[1]);
-    int h=atoi(argv[2]);
+    float b=atof(argv[1]);
+    float h=atof(argv[2]);
     float area=0.5*b*h;
     printf("the are of given triangle is\t %0.2f",area);
         
