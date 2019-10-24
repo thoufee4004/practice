@@ -1,5 +1,12 @@
 ///input: 1 output: a or A assign number to albabet to print albabet by cooresponded number like 25=z
 ///the below code does not give output and any error
+
+Alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+numbers = [3,6,12,1,1,3]
+letters = Alphabet(numbers)
+  
+  
+  
 #include  <stdio.h>
 void print(int);
 int main(void)
